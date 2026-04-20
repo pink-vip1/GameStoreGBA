@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER + FOOTER */
+.site-header,
+.site-footer {
+    background: #1b1b1b;
+    padding: 16px 0;
+}
+
+/* HEADER LAYOUT */
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.site-title a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* MENU */
+.site-nav {
+    flex: 1;
+}
+
+/* SEARCH */
+.header-search {
+    width: 250px;
+}
+
+/* AUTH */
+.auth-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.auth-links a {
+    padding: 6px 12px;
+    background: #2a2a2a;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.auth-links a:hover {
+    background: #444;
+}
+
+.user-name {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* MAIN */
+.site-main {
+    padding: 24px 0;
+}
+
+/* HERO */
+.home-hero {
+    margin-bottom: 32px;
+    padding: 24px;
+    background: #1f1f1f;
+    border-radius: 12px;
+}
+
+/* GRID */
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.game-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.game-card-thumb img,
+.single-game-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.game-card-title {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+/* SEARCH FORM */
+.game-search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.game-search-form input,
+.game-search-form select,
+.game-search-form button,
+.btn {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+}
+
+.game-search-form button,
+.btn {
+    background: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* SINGLE GAME */
+.single-game {
+    padding: 30px 0;
+}
+
+.game-detail {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.game-left img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+.game-right {
+    flex: 1;
+}
+
+.game-right h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.game-desc {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.btn-play {
+    display: inline-block;
+    background: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}

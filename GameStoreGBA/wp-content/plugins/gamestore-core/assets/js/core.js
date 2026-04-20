@@ -1,0 +1,1 @@
+console.log('plugin core.js loaded');
